@@ -34,7 +34,7 @@ export function Footer() {
         </a>
 
         <a
-          href="https://www.instagram.com/albertofranjul/"
+          href="https://www.instagram.com/albertofranjulr/"
           target="_blank"
           rel="noreferrer"
         >
