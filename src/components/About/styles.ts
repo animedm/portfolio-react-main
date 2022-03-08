@@ -6,6 +6,7 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
+
   .hard-skills{
     margin-top: 1.6rem;
     display: flex;
@@ -45,6 +46,7 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
+     border-radius: 30px;
      margin-top: 2rem;
      width: 100%;
      filter: grayscale(1);
@@ -57,16 +59,21 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 480px) {
     .about-image {
+      border-radius: 50%;
       max-width: 100%;
       margin-top: 4rem;
     }
   }
 
   @media (max-width: 960px){
+    border-radius: 50%;
+
     display: block;
     text-align: center;
 
     .about-image{
+      border-radius: 50%;
+
       display: flex;
     }
     .hard-skills{

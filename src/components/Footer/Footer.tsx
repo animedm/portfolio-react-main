@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 
-import reactIcon from "../../assets/react-icon.svg";
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
 import instagramIcon from "../../assets/instagram.png";
@@ -15,7 +14,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          Este sitio fue hecho con React <img src={reactIcon} alt="React" />
+          Vuelva pronto a mi mundo.
           <span>❤️</span>
         </p>
       </div>

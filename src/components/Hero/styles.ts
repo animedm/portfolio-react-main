@@ -34,6 +34,7 @@ export const Container = styled.section`
   }
 
   .hero-image{
+    
     img{
       max-width: 600px;
     }

@@ -7,6 +7,7 @@ import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import unity from "../../assets/unity.svg";
+import firebase from "../../assets/firebase.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import perfil from "../../assets/yo.jpg";
 
@@ -80,6 +81,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={firebase} alt="Vue" />
             </ScrollAnimation>
           </div>
           <div className="hability">
