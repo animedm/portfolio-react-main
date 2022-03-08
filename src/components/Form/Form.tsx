@@ -48,7 +48,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Contácteme llenado el formulario de abajo</h2>
+      <h2>Contácteme llenando el formulario de abajo</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
