@@ -1,14 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-import Illustration from "../../assets/illustration.svg";
+import Illustration from "../../assets/world.svg";
 import { NavHashLink } from "react-router-hash-link";
+import { ScrollRotate } from "react-scroll-rotate";
 export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hola 👋, soy</p>
+          <p>Hola 👋 bienvenidos a mi mundo, soy:</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Francisco Franjul</h1>
@@ -31,9 +32,11 @@ export function Hero() {
         </ScrollAnimation>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="ilustración" />
-        </ScrollAnimation>
+        <ScrollRotate>
+          <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+            <img src={Illustration} alt="ilustración" />
+          </ScrollAnimation>
+        </ScrollRotate>
       </div>
     </Container>
   );

@@ -35,9 +35,11 @@ export const Container = styled.div`
       height: 20rem;
       overflow-y: auto;
       resize: none;
+      
     }
 
     button{
+      background: #016fb9;
       padding: 1rem 6rem;
       text-transform: uppercase;
     }
@@ -66,6 +68,7 @@ export const ContainerSucces = styled.div`
     margin-top: 0.8rem;
     text-transform: uppercase;
     text-align: center;
-    color: #fbfbfb;
+    
+    color:blue;
   }
 `

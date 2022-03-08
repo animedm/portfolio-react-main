@@ -1,13 +1,12 @@
 import { Container } from "./styles";
 
-import profileImage from "../../assets/profile-image.jpg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import unity from "../../assets/unity.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import perfil from "../../assets/yo.jpg";
 
@@ -56,12 +55,6 @@ export function About() {
           </div>
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-              <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
-          </div>
-
-          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
@@ -87,6 +80,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+              <img src={unity} alt="Vue" />
             </ScrollAnimation>
           </div>
         </div>

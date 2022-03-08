@@ -12,10 +12,10 @@ import jsIcon from "../../assets/js-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
+//import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import unity from "../../assets/unity.svg";
 
 export function Main() {
   return (
@@ -165,6 +165,11 @@ export function Main() {
                   height: 20,
                 },
                 {
+                  src: unity,
+                  width: 25,
+                  height: 25,
+                },
+                {
                   src: jsIcon,
                   width: 20,
                   height: 20,
@@ -184,11 +189,7 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
-                {
-                  src: sassIcon,
-                  width: 20,
-                  height: 20,
-                },
+
                 {
                   src: typescriptIcon,
                   width: 20,
@@ -196,11 +197,6 @@ export function Main() {
                 },
                 {
                   src: vscodeIcon,
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: vueIcon,
                   width: 20,
                   height: 20,
                 },

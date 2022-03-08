@@ -17,7 +17,7 @@ export const Container = styled.section`
     }
 
     h3{
-      color:var(--green);
+      color:var(--blue);
       margin: 1rem 0;
     }
 
@@ -30,11 +30,12 @@ export const Container = styled.section`
   .button{
     margin-top: 5rem;
     padding: 1.4rem 6rem;
+   background: #016fb9;
   }
 
   .hero-image{
     img{
-      max-width: 500px;
+      max-width: 600px;
     }
   }
 
