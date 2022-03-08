@@ -18,7 +18,7 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">
-            Soy desarrollador de software y amante a al tecnologia.
+            Soy desarrollador de software y amante a la tecnología.
           </p>
         </ScrollAnimation>
 
@@ -32,7 +32,7 @@ export function Hero() {
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
+          <img src={Illustration} alt="ilustración" />
         </ScrollAnimation>
       </div>
     </Container>

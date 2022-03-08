@@ -20,8 +20,8 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Mi nombre es Francisco soy un desarrollador de software al cual le
-            apasiona aprender nuevas tecnologias. soy amante a los retos y al
+            Mi nombre es Francisco, soy un desarrollador de software al cual le
+            apasiona aprender nuevas tecnologias, soy amante de los retos y el
             trabajo en equipo, soy fullstack developer aunque en mi pasatiempo
             me gusta cacharrear hardware.
           </p>
@@ -33,20 +33,20 @@ export function About() {
         >
           <p>
             Creo sitios y aplicaciones utilizando HTML, CSS y JavaScript.
-            Frameworks como React JS, NodeJS son mis preferidos. No tengo miedo
-            en aprender nuevas tecnologias creo que esa es mi mayor virtud.
+            Frameworks como React JS, NodeJS son mis preferidos, no tengo miedo
+            en aprender nuevas tecnologias, creo que esa es mi mayor virtud.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>
-            Soy una persona que le gusta ayudar en el equipo y aprender de los
-            errores sin temor a pedir ayuda y aceptar criticas constructivas de
+            Soy una persona que le gusta ayudar al equipo y aprender de los
+            errores sin temor a pedir ayuda y aceptar críticas constructivas de
             la mejor forma.
           </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estan mis principales habilidades:</h3>
+          <h3>Aquí están mis principales habilidades:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
